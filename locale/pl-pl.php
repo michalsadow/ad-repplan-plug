@@ -1,0 +1,73 @@
+<?php
+
+return [
+
+  'PRZESLIJMI_ADREPPLANPLUG_PLANS_DIR_URI' => 'Folder, do którego wtyczka RepPlanner zapisuje wygenerowane harmonogramy spłat.',
+  'PRZESLIJMI_ADREPPLANPLUG_INDEX_URI' => 'Plik, w którym wtyczka RepPlanner przechowuje indeks wygenerowanych harmonogramów.',
+
+  'Przeslijmi.AgileDataRepplanPlug.tabs.id' => 'dane identyfikacyjne',
+
+  'Przeslijmi.AgileDataRepplanPlug.inForce.no' => 'nie',
+  'Przeslijmi.AgileDataRepplanPlug.inForce.yes' => 'tak',
+  'Przeslijmi.AgileDataRepplanPlug.inForce.enforce' => 'niech-obowiazuje',
+  'Przeslijmi.AgileDataRepplanPlug.inForce.deforce' => 'niech-nieobowiazuje',
+
+  /**
+   * Repplan fields.
+   */
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repStyle.name' => 'Styl spłat',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repStyle.desc' => '',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repStyle.types.nn' => 'b/d',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repStyle.types.linear' => 'liniowe',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repStyle.types.annuit' => 'annuitetowe',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repStyle.types.annuitZero' => 'annuitetowe zaokrąglone',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repStyle.types.baloon' => 'balonowe',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.daily.name' => 'Obliczenia według faktycznych liczby dni',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.daily.desc' => '',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repPeriod.name' => 'Okresowość spłat',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repPeriod.desc' => '',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repPeriod.types.nn' => 'b/d',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repPeriod.types.monthly' => 'miesięczne',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repPeriod.types.quarterly' => 'kwartalne',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repPeriod.types.yearly' => 'roczne',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repPeriod.types.halfYearly' => 'półroczne',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.repPeriod.types.baloon' => 'rata balonowa',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.firstRep.name' => 'Data pierwszej spłaty',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.firstRep.desc' => '',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.lastRep.name' => 'Data ostatniej spłaty',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.lastRep.desc' => '',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.payments.name' => 'Wypłaty transz',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.payments.desc' => '',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.payments.type.date' => 'Data transzy',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.payments.type.amount' => 'Kwota transzy',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.rates.name' => 'Oprocentowanie',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.rates.desc' => '',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.rates.type.date' => 'Początek obowiązywania',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.rates.type.amount' => 'Wysokość (jako ułamek)',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.agreement.name' => 'Numer umowy',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.agreement.desc' => '',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.name.name' => 'Nazwa klienta',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.name.desc' => '',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.info.name' => 'Dodatkowe uwagi',
+  'Przeslijmi.AgileDataRepplanPlug.repplans.fields.info.desc' => '',
+
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeIsEmptyException.repplan.repStyle' => 'Należy wybrać styl spłat.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeIsEmptyException.repplan.daily' => 'Należy wskazać czy obliczenie ma się odbywać według obliczeń dziennych czy nie.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeIsEmptyException.repplan.repPeriod' => 'Należy wybrać okresowość spłat.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeIsEmptyException.repplan.firstRep' => 'Nie podano daty pierwszej spłaty pożyczki lub podana data jest nieprawidłowa.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeIsEmptyException.repplan.lastRep' => 'Nie podano daty ostatniej spłaty pożyczki lub podana data jest nieprawidłowa.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeIsEmptyException.repplan.payments' => 'Należy wprowdzić przynajmniej jedną wypłatę transzy.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeIsEmptyException.repplan.payments.date' => 'Dla każdej transzy należy podać prawidłową datę wypłaty.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeIsEmptyException.repplan.payments.amount' => 'Dla każdej transzy należy podać prawidłową kwotę (musi być większa od zera).',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeContentsMalformedException.repplan.payments.amount' => 'W przynajmniej jednej wypłacie znajduje się niepoprawna kwota. Każda kwota musi być wyrażona w PLN jako wartość większa od zera.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeIsEmptyException.repplan.rates' => 'Należy wprowdzić przynajmniej jedno obowiązujące oprocentowanie.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeIsEmptyException.repplan.rates.date' => 'Dla każdego obowiązującego oprocentowania należy wskazać prawidłową datę od kiedy to oprocentowanie obowiązuje.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeIsEmptyException.repplan.rates.amount' => 'Dla każdego obowiązującego oprocentowania należy podać prawidłowe oprocentowanie jako ułamek (tj. np. 0.03).',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.NodeContentsMalformedException.repplan.rates.amount' => 'W przynajmniej jednym wierszu obowiązującego oprocentowania podana jest nieprawidłowa wartość oprocentowania. Prawidłowa wartość to taka, która jest podana jako ułamek (tj. np. 0.03).',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.UnknownRateOnStart' => 'Pierwsza wypłata następuje wcześniej niż wskazany jest początek obowiązywania pierwszego oprocentowania. Oznacza to, że w początkowym okresie nieznana jest wysokość należnego oprocentowania.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.BaloonIsBaloon' => 'Jeśli wybrany jest styl spłat "balonowe" to okresowość spłat również musi być wskazana jako "balonowa". I to samo na odwrót ;).',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.FirstRepaymentTooEarly' => 'Pierwsza spłata jest za wcześnie - musi być później niż wypłata pierwszej transzy.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.LastRepaymentTooEarly' => 'Ostatnia spłata jest za wcześnie - musi być później niż pierwsza spłata.',
+  'Przeslijmi.AgileDataRepplanPlug.exc.add.LastPaymentTooLate' => 'Wypłata ostatniej transzy jest później niż data ostatniej spłaty - nie może tak być.',
+
+];

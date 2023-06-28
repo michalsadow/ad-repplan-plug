@@ -1,0 +1,22 @@
+{
+    "name": "przeslijmi/ad-repplan-plug",
+    "version": "v1.1.0",
+    "type": "library",
+    "license": "proprietary",
+    "description": "",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/przeslijmi/RepaymentPlanner"
+        }
+    ],
+    "require": {
+        "przeslijmi/repaymentplanner": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Przeslijmi\\RepaymentPlanner\\": "vendor/przeslijmi/repayment-planner"
+        }
+    }
+}
