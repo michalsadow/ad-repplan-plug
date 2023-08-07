@@ -8,7 +8,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/przeslijmi/RepaymentPlanner"
+            "url": "https://github.com/michalsadow/RepaymentPlanner"
         }
     ],
     "require": {
